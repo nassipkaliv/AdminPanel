@@ -55,7 +55,7 @@ body {
   font-size: 1rem;
   font-weight: 300;
   color: #5A6169;
-  background-color: #fff; 
+  background-color: var(--bg, #EFF1F8); 
   font-family: 'SF Pro Display', sans-serif;
 }
 

@@ -9,7 +9,7 @@ import {
 
 export default () => (
   <Form className="main-navbar__search w-100 flex-row d-none d-md-flex d-lg-flex">
-        <div className="py-2 mt-1" href="#">
+        <div className="py-2 mt-1 px-4" href="#">
         <img
           width={70}
           className="user-avatar rounded-circle mr-2"

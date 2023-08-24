@@ -100,7 +100,7 @@ const UserStats = ({ title }) => {
   }, []);
 
   return (
-    <Card small className="mb-1">
+    <Card small className="py-1">
       <Navbar>
         <NavbarBrand href="#">
           <h2 className="mb-0 ml-3" style={{ fontSize: '22px', fontWeight: 600, letterSpacing: '0.22px', color: 'var(--black, #1D2226)' }}>
@@ -119,7 +119,7 @@ const UserStats = ({ title }) => {
       </Navbar>
 
       <CardBody>
-        <canvas ref={chartRef} width={400} height={190} />
+        <canvas ref={chartRef} width={400} height={193} />
       </CardBody>
     </Card>
   );

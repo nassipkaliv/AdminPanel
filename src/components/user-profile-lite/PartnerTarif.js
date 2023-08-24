@@ -87,7 +87,7 @@ const PartnerTarif = ({ title }) => (
         </Row>
       </Container>
       <div className="text-right">
-        <Button style={{ fontSize: '19px', fontWeight: '400', backgroundColor: 'var(--pimary-blue, #1877EE)', borderRadius: '10px' }}>$9,999 Take</Button>
+        <Button style={{ fontSize: '19px', fontWeight: '400', backgroundColor: 'var(--pimary-blue, #1877EE)', borderRadius: '10px', height: '48px' }}>$9,999 Take</Button>
       </div>
     </CardBody>
     

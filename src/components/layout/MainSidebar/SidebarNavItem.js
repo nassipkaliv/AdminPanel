@@ -8,7 +8,7 @@ const SidebarNavItem = ({ item }) => (
     <NavLink tag={RouteNavLink} to={item.to}>
       {item.htmlBefore && (
         <div
-          className="d-inline-block item-icon-wrapper"
+          className="d-inline-block item-icon-wrapper px-3"
           dangerouslySetInnerHTML={{ __html: item.htmlBefore }}
         />
       )}

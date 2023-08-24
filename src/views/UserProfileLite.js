@@ -9,17 +9,17 @@ import PartnerTarif from "../components/user-profile-lite/PartnerTarif";
 
 const UserProfileLite = () => (
   <Container fluid className="main-content-container py-6 pt-4"> 
-    <Row>
-      <Col sm="5">
+    <Row style={{ padding: '8px 17px'}}>
+      <Col sm="5" style={{ marginRight: '-6px'}}>
         <UserDetails />
       </Col>
       <Col sm="7">
         <UserStats />
       </Col>
-      <Col sm="5">
+      <Col sm="5" style={{ marginTop: '24px', marginRight: '-6px'}}>
         <ClientTarif />
       </Col>
-      <Col sm="7">
+      <Col sm="7" style={{ marginTop: '24px'}}>
         <PartnerTarif />
       </Col>
     </Row>
