@@ -10,7 +10,7 @@ import {
   Container
 } from "shards-react";
 
-const UserAccountDetails = ({ title }) => (
+const ClientTarif = ({ title }) => (
   <Card small className="mb-1">
     <CardHeader className="border-bottom">
       <h2 className="mb-0" style={{ fontSize: '22px', fontWeight: 600, lineHeight: '140%', letterSpacing: '0.22px', color: 'var(--black, #1D2226)' }}>
@@ -50,9 +50,9 @@ const UserAccountDetails = ({ title }) => (
         </h3>
       </div>
 
-      <Container className="px-0">
-      <Row className="mb-0 py-0">
-        <Col xs lg={10}>
+      <Container className="px-0 py-1">
+      <Row style={{ height: '40px'}} className="border-bottom">
+        <Col xs lg={10} >
           <h3 style={{  
             color: 'var(--light-grey, #A9B0BA)',
             fontSize: '14px',
@@ -73,7 +73,7 @@ const UserAccountDetails = ({ title }) => (
         </p>
         </Col>
       </Row>
-      <Row className="mb-0 py-0">
+      <Row style={{ height: '40px'}} className="border-bottom mt-2">
         <Col xs lg={10}>
           <h3 style={{  
             color: 'var(--light-grey, #A9B0BA)',
@@ -95,7 +95,7 @@ const UserAccountDetails = ({ title }) => (
         </p>
         </Col>
       </Row>
-      <Row className="mb-0 py-0">
+      <Row style={{ height: '40px'}} className="border-bottom mt-2">
         <Col xs lg={10}>
           <h3 style={{  
             color: 'var(--light-grey, #A9B0BA)',
@@ -106,7 +106,7 @@ const UserAccountDetails = ({ title }) => (
             Ставка биржи
           </h3>
         </Col>
-        <Col xs={4} md={2}>
+        <Col xs={4} md={2} >
         <p style={{  
             color: 'var(--black, #1D2226)',
             fontSize: '14px',
@@ -117,8 +117,8 @@ const UserAccountDetails = ({ title }) => (
         </p>
         </Col>
       </Row>
-      <Row className="mb-0 py-0">
-        <Col xs lg={10}>
+      <Row style={{ height: '40px'}} className="mt-2">
+        <Col xs lg={10} >
           <h3 style={{  
             color: 'var(--light-grey, #A9B0BA)',
             fontSize: '14px',
@@ -128,7 +128,7 @@ const UserAccountDetails = ({ title }) => (
             Комиссия с прибыли бота
           </h3>
         </Col>
-        <Col xs={4} md={2}>
+        <Col xs={4} md={2} >
         <p style={{  
             color: 'var(--black, #1D2226)',
             fontSize: '14px',
@@ -144,8 +144,8 @@ const UserAccountDetails = ({ title }) => (
   </Card>
 );
 
-UserAccountDetails.propTypes = {
+ClientTarif.propTypes = {
   title: PropTypes.string,
 };
 
-export default UserAccountDetails;
+export default ClientTarif;

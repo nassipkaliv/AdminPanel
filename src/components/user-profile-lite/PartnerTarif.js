@@ -57,8 +57,8 @@ const PartnerTarif = ({ title }) => (
               <div className="d-inline" style={{ color: "var(--light-grey, #A9B0BA)"}}>Clients</div>
               <div className="d-inline">6/10</div>
             </div>
-            <div className="mb-3" style={{ position: "relative", height: "15px", backgroundColor: "var(--secondary-orange-2, #FFBF82)" }}>
-              <Progress style={{ height: "100%", borderRadius: '10px', backgroundColor: 'var(--secondary-light-orange, #FFF1E3)' }} value={60} />
+            <div className="mb-3" style={{ position: "relative", height: "15px", color: "var(--secondary-orange-2, #FFBF82)" }}>
+              <Progress theme="warning" style={{ height: "100%", borderRadius: '10px', backgroundColor: 'var(--secondary-light-orange, #FFF1E3)' }} value={60} />
             </div>
           </Col>
           <Col>
@@ -66,8 +66,8 @@ const PartnerTarif = ({ title }) => (
               <div className="d-inline" style={{ color: "var(--light-grey, #A9B0BA)"}}>LV Slots</div>
               <div className="d-inline">17/30</div>
             </div>
-            <div className="mb-3" style={{ position: "relative", height: "15px", backgroundColor: "var(--secondary-orange-2, #FFBF82)" }}>
-              <Progress style={{ height: "100%", borderRadius: '10px', backgroundColor: 'var(--secondary-light-orange, #FFF1E3)' }} value={60} />
+            <div className="mb-3" style={{ position: "relative", height: "15px", color: "var(--secondary-orange-2, #FFBF82)" }}>
+              <Progress theme="warning" style={{ height: "100%", borderRadius: '10px', backgroundColor: 'var(--secondary-light-orange, #FFF1E3)' }} value={60} />
             </div>
           </Col>
         </Row>
@@ -77,8 +77,8 @@ const PartnerTarif = ({ title }) => (
               <div className="d-inline" style={{ color: "var(--light-grey, #A9B0BA)"}}>Slots</div>
               <div className="d-inline">6/10</div>
             </div>
-            <div className="mb-3" style={{ position: "relative", height: "15px", backgroundColor: "var(--secondary-orange-2, #FFBF82)" }}>
-              <Progress style={{ height: "100%", borderRadius: '10px', backgroundColor: 'var(--secondary-light-orange, #FFF1E3)' }} value={60} />
+            <div className="mb-2" style={{ position: "relative", height: "15px", color: "var(--secondary-orange-2, #FFBF82)" }}>
+              <Progress theme="warning" style={{ height: "100%", borderRadius: '10px', backgroundColor: 'var(--secondary-light-orange, #FFF1E3)' }} value={60} />
             </div>
           </Col>
           <Col>
@@ -87,7 +87,7 @@ const PartnerTarif = ({ title }) => (
         </Row>
       </Container>
       <div className="text-right">
-        <Button style={{ fontSize: '19px', fontWeight: '600'}}>$9,999 Take</Button>
+        <Button style={{ fontSize: '19px', fontWeight: '400', backgroundColor: 'var(--pimary-blue, #1877EE)', borderRadius: '10px' }}>$9,999 Take</Button>
       </div>
     </CardBody>
     

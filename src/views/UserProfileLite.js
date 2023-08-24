@@ -3,7 +3,7 @@ import { Container, Row, Col } from "shards-react";
 
 import PageTitle from "../components/common/PageTitle";
 import UserDetails from "../components/user-profile-lite/UserDetails";
-import UserAccountDetails from "../components/user-profile-lite/UserAccountDetails";
+import ClientTarif from "../components/user-profile-lite/ClientTarif";
 import UserStats from "../components/user-profile-lite/UserStats";
 import PartnerTarif from "../components/user-profile-lite/PartnerTarif";
 
@@ -17,7 +17,7 @@ const UserProfileLite = () => (
         <UserStats />
       </Col>
       <Col sm="5">
-        <UserAccountDetails />
+        <ClientTarif />
       </Col>
       <Col sm="7">
         <PartnerTarif />

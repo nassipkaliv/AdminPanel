@@ -46,7 +46,7 @@ const UserDetails = ({ userDetails }) => (
     </div>
         <h3 className="mb-2 mt-0" style={{ fontSize: '13px', fontWeight: 600, lineHeight: '140%', color: 'var(--light-grey, #A9B0BA)' }}>{userDetails.email}</h3>
 
-        <div className="mb-1" style={{ display: 'flex', alignItems: 'center', gap: '6px', width: '200px', padding: '0px 4px',  borderRadius: '8px', background: 'var(--pimary-light-blue, #ECF5FF)' }}>
+        <div className="mb-1" style={{ display: 'flex', alignItems: 'center', gap: '6px', width: '210px', padding: '0px 4px',  borderRadius: '8px', background: 'var(--pimary-light-blue, #ECF5FF)' }}>
           <h3 className="mb-0" style={{ fontSize: '13px', fontWeight: 600, lineHeight: '140%', color: 'var(--light-grey, #A9B0BA)' }}>
             Ref link
           </h3>
@@ -73,7 +73,7 @@ const UserDetails = ({ userDetails }) => (
     
     <CardBody className="text-left d-flex flex-row align-items-center position-relative pt-0 border-bottom">
       <div className="py-5 mb-4">
-        <h3 className="mb-1 " style={{ fontSize: '17px', fontWeight: 600, lineHeight: '140%', letterSpacing: '0.17px', color: 'var(--black, #1D2226)' }}>
+        <h3 className="mb-2" style={{ fontSize: '17px', fontWeight: 600, lineHeight: '140%', letterSpacing: '0.17px', color: 'var(--black, #1D2226)' }}>
           Закрытые квалификации
         </h3>
         <div className="flex-row text-align-center ">
