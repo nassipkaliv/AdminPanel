@@ -20,15 +20,15 @@ export default class Notifications extends React.Component {
 
   render() {
     return (
-      <NavItem className="dropdown notifications">
+      <NavItem className="border-right dropdown notifications">
         <NavLink
           className="nav-link-icon text-center"
           onClick={this.toggleNotifications}
         >
           <div className="nav-link-icon__wrapper">
             <i className="material-icons">&#xE7F4;</i>
-            <Badge pill theme="danger">
-              2
+            <Badge pill style={{ top: '0'}}>
+              12
             </Badge>
           </div>
         </NavLink>

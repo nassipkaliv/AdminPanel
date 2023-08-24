@@ -29,7 +29,7 @@ export default class Language extends React.Component {
 
   render() {
     return (
-      <NavItem navbar className="ml-auto" tag={Dropdown} caret toggle={this.toggleUserActions}>
+      <NavItem navbar className="ml-auto mt-1" tag={Dropdown} caret toggle={this.toggleUserActions}>
         <DropdownToggle caret tag={NavLink} className="text-nowrap px-3 align-right">
           <img
             className="user-avatar rounded-circle mr-2"

@@ -19,7 +19,7 @@ const UserProfileLite = () => (
       <Col sm="5">
         <UserAccountDetails />
       </Col>
-      <Col sm="5">
+      <Col sm="7">
         <PartnerTarif />
       </Col>
     </Row>
