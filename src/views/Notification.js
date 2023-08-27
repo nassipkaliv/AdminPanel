@@ -8,12 +8,14 @@ import TarifMessage from "../components/client-tariffs/TarifMessage";
 import TarifBuyItem from "../components/client-tariffs/TarifBuyItem";
 import NotificationHeader from "../components/notification/NotificationHeader";
 import NotificationLink from "../components/notification/NotificationLink";
+import CoinTable from "../components/notification/CoinTable";
 
 const Notification = () => (
   <Container fluid className="main-content-container px-4 py-4 pt-4 mt-3 ml-3">
     {/* Page Header */}
     <NotificationHeader />
     <NotificationLink />
+    <CoinTable />
   </Container>
 );
 

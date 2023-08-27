@@ -10,20 +10,20 @@ import {
 export default () => (
   <Form className="main-navbar__search w-100 flex-row d-none d-md-flex d-lg-flex">
         <div className="py-2 mt-1 px-4" href="#">
-        <img
-          width={70}
-          className="user-avatar rounded-circle mr-2"
-          src={require("./../../../images/avatars/0.jpg")}
-          alt="User Avatar"
-          style={{ borderRadius: '60px' }}
-        />
+          <img
+            width={70}
+            className="user-avatar rounded-circle mr-2"
+            src={require("./../../../images/avatars/0.jpg")}
+            alt="User Avatar"
+            style={{ borderRadius: '60px' }}
+          />
         </div>
-      <div className="mt-2 border-right">
-        <div className="d-flex flex-column mr-2 px-2" href="#">
-          <span className="mt-auto" style={{ fontSize: '18px', letterSpacing: '0.2px', fontWeight: '600', color: 'var(--black, #1D2226)' }}>Anna Lover</span>
-          <span style={{ color: 'var(--grey, #7E838E)', fontSize: '14px', fontWeight: '500', letterSpacing: '0.16px' }}>ID: 13931</span>
+        <div className="mt-2 border-right">
+          <div className="d-flex flex-column mr-2 px-2" href="#">
+            <span className="mt-auto" style={{ fontSize: '18px', letterSpacing: '0.2px', fontWeight: '600', color: 'var(--black, #1D2226)' }}>Anna Lover</span>
+            <span style={{ color: 'var(--grey, #7E838E)', fontSize: '14px', fontWeight: '500', letterSpacing: '0.16px' }}>ID: 13931</span>
+          </div>
         </div>
-      </div>
       <div className="mt-2 border-right">
         <div className="d-flex flex-column mr-2 px-2" href="#">
           <span className="mt-auto" style={{ fontSize: '18px', letterSpacing: '0.2px', fontWeight: '600', color: 'var(--black, #1D2226)' }}>Status</span>

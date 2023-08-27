@@ -30,11 +30,11 @@ const TradingHeader = ({}) => (
     </Row>
 
     <div className="mb-1">
-    <div className="mb-1">
+    <di className="mb-1">
         <h1 className="pt-1 mb-1" style={{ fontSize: '26px', fontWeight: 600, lineHeight: '140%', letterSpacing: '0.22px', color: 'var(--black, #1D2226)' }}>
           Commission wallet
         </h1>
-    </div>
+    </di>
   
     <Container>
       <Row>
