@@ -7,18 +7,19 @@ import { DefaultLayout } from "./layouts";
 // Route Views
 import BlogOverview from "./views/BlogOverview";
 import UserProfileLite from "./views/UserProfileLite";
-import AddNewPost from "./views/AddNewPost";
+import ClientTariffs from "./views/ClientTariffs";
 import Errors from "./views/Errors";
 import ComponentsOverview from "./views/ComponentsOverview";
 import Tables from "./views/Tables";
-import BlogPosts from "./views/BlogPosts";
+import Trading from "./views/Trading";
+import Notification from "./views/Notification";
 
 export default [
   {
     path: "/",
     exact: true,
     layout: DefaultLayout,
-    component: () => <Redirect to="/blog-overview" />
+    component: () => <Redirect to="/user-profile-lite" />
   },
   {
     path: "/blog-overview",
@@ -31,14 +32,14 @@ export default [
     component: UserProfileLite
   },
   {
-    path: "/add-new-post",
+    path: "/client-tariffs",
     layout: DefaultLayout,
-    component: AddNewPost
+    component: ClientTariffs
   },
   {
-    path: "/errors",
+    path: "/notification",
     layout: DefaultLayout,
-    component: Errors
+    component: Notification
   },
   {
     path: "/components-overview",
@@ -51,8 +52,8 @@ export default [
     component: Tables
   },
   {
-    path: "/blog-posts",
+    path: "/trading",
     layout: DefaultLayout,
-    component: BlogPosts
+    component: Trading
   }
 ];

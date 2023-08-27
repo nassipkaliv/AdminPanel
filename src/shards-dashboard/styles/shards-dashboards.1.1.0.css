@@ -94,8 +94,13 @@ h2, .h2 {
   line-height: 2.25rem; }
 
 h3, .h3 {
-  font-size: 1.953rem;
-  line-height: 2.25rem; }
+  font-family: SF Pro Display;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 23.8px */
+  letter-spacing: 0.17px; 
+}
 
 h4, .h4 {
   font-size: 1.563rem;
@@ -3744,7 +3749,6 @@ html {
       font-weight: 400; } }
 
 body {
-  background: #F5F6F8;
   font-size: 15px;
   font-weight: 500; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {

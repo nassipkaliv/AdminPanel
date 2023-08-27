@@ -32,7 +32,7 @@ export default () => (
       </div>
       <div className="mt-3 border-right">
         <div className="px-3"href="#">
-          <p style={{ color: 'var(--black, #1D2226)', fontSize: '20px', letterSpacing: '-0.6px', fontWeight: '500'}}>$64,768 <span style={{ color: 'var(--grey, #7E838E)'}}>.64</span></p>
+          <p style={{ color: 'var(--black, #1D2226)', fontSize: '20px', letterSpacing: '-0.6px', fontWeight: '500'}}>$64,768<span style={{ color: 'var(--grey, #7E838E)'}}>.64</span></p>
         </div>
       </div>
       <div  className="mt-3" >
