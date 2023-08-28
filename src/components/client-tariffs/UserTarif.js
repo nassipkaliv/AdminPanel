@@ -14,7 +14,7 @@ import {
 const UserTarif = ({ title }) => (
   <Card small className="mb-1">
     <CardHeader style={{ padding: '0rem 1rem'}}>
-        <div className="mt-3" style={{ display: 'flex', alignItems: 'center', width: '80px', padding: '0px 4px',  borderRadius: '8px', background: 'var(--pimary-light-blue, #ECF5FF)' }}>
+        <div className="mt-3" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '75px', padding: '0px 4px',  borderRadius: '8px', background: 'var(--pimary-light-blue, #ECF5FF)' }}>
           <h3 className="mb-0" style={{ fontSize: '15px', fontWeight: 600, lineHeight: '140%', color: 'var(--pimary-blue, #1877EE)' }}>
             Your tarif
           </h3>

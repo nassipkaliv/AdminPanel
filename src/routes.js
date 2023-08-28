@@ -13,6 +13,8 @@ import ComponentsOverview from "./views/ComponentsOverview";
 import Tables from "./views/Tables";
 import Trading from "./views/Trading";
 import Notification from "./views/Notification";
+import Finance from "./views/Finance";
+import Forecast from "./views/Forecast";
 
 export default [
   {
@@ -22,9 +24,9 @@ export default [
     component: () => <Redirect to="/user-profile-lite" />
   },
   {
-    path: "/blog-overview",
+    path: "/forecast",
     layout: DefaultLayout,
-    component: BlogOverview
+    component: Forecast
   },
   {
     path: "/user-profile-lite",
@@ -47,9 +49,9 @@ export default [
     component: ComponentsOverview
   },
   {
-    path: "/tables",
+    path: "/finance",
     layout: DefaultLayout,
-    component: Tables
+    component: Finance
   },
   {
     path: "/trading",

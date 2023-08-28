@@ -7,12 +7,15 @@ import TarifDetails from "../components/client-tariffs/TarifDetails";
 import TarifMessage from "../components/client-tariffs/TarifMessage";
 import TarifBuyItem from "../components/client-tariffs/TarifBuyItem";
 import TradingHeader from "../components/trading/TradingHeader";
+import TradingGraph from "../components/trading/TradingGraph";
+import TradingTable from "../components/trading/TradingTable";
 
 const Trading = () => (
   <Container fluid className="main-content-container  px-4 py-4 pt-4 mt-3 ml-3">
     {/* Page Header */}
     <TradingHeader />
-  </Container>
+    <TradingTable />
+</Container>
 );
 
 export default Trading;
