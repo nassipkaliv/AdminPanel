@@ -52,7 +52,7 @@ const CoinTable = ({ title }) => (
               <tbody>
                 <tr>
                   <td>1.</td>
-                  <td className="d-flex flex-row px-0 py-1">
+                  <td className="d-flex flex-row px-0">
                     <div className="px-0" href="#">
                       <img
                         className="user-avatar rounded-circle mr-2"
@@ -78,7 +78,7 @@ const CoinTable = ({ title }) => (
                 </tr>
                 <tr>
                   <td>2.</td>
-                  <td className="d-flex flex-row px-0 py-1">
+                  <td className="d-flex flex-row px-0">
                     <div className="px-0" href="#">
                       <img
                         className="user-avatar rounded-circle mr-2"
@@ -104,7 +104,7 @@ const CoinTable = ({ title }) => (
                 </tr>
                 <tr>
                   <td>3.</td>
-                  <td className="d-flex flex-row px-0 py-1">
+                  <td className="d-flex flex-row px-0">
                     <div className="px-0" href="#">
                       <img
                         className="user-avatar rounded-circle mr-2"
@@ -131,7 +131,7 @@ const CoinTable = ({ title }) => (
                 </tr>
                 <tr>
                   <td>4.</td>
-                  <td className="d-flex flex-row px-0 py-1">
+                  <td className="d-flex flex-row px-0">
                     <div className="px-0" href="#">
                       <img
                         className="user-avatar rounded-circle mr-2"
@@ -157,7 +157,7 @@ const CoinTable = ({ title }) => (
                 </tr>
                 <tr>
                   <td>5.</td>
-                  <td className="d-flex flex-row px-0 py-1">
+                  <td className="d-flex flex-row px-0">
                     <div className="px-0" href="#">
                       <img
                         className="user-avatar rounded-circle mr-2"
@@ -183,7 +183,7 @@ const CoinTable = ({ title }) => (
                 </tr>
                 <tr>
                   <td>6.</td>
-                  <td className="d-flex flex-row px-0 py-1">
+                  <td className="d-flex flex-row px-0">
                     <div className="px-0" href="#">
                       <img
                         className="user-avatar rounded-circle mr-2"

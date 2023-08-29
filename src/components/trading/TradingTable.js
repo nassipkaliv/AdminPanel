@@ -68,7 +68,7 @@ const TradingTable = ({ title }) => (
               <tbody>
                 <tr>
                   <td>1.</td>
-                  <td className="d-flex flex-row px-0 py-1">
+                  <td className="d-flex px-0">
                     <div className="px-0" href="#">
                       <img
                         className="user-avatar rounded-circle mr-2"
@@ -88,13 +88,16 @@ const TradingTable = ({ title }) => (
                   <td>Simple-long</td>
                   <td>$350</td>
                   <td>
-                  <div className="mt-0" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '75px', padding: '0px 4px',  borderRadius: '8px', background: '#E2FAEC;' }}>
-                    <h3 className="mb-0" style={{ fontSize: '15px', fontWeight: 600, lineHeight: '140%', color: '#2FDB74' }}>
+                    <button style={{ borderRadius: '42px', background: '#E2FAEC', border: 'none', color: 'var(--green, #2FDB74)', fontWeight: '600' }}>
                       +243$
-                    </h3>
-                  </div>
+                    </button>
                   </td>
                   <td className="d-flex justify-content-end">
+                    <img 
+                      src={require("../../images/avatars/Play.png")}
+                      alt="play"
+                      className="mr-2"
+                    />
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2ZM7.53033 6.46967C7.23744 6.17678 6.76256 6.17678 6.46967 6.46967C6.17678 6.76256 6.17678 7.23744 6.46967 7.53033L10.9393 12L6.46967 16.4697C6.17678 16.7626 6.17678 17.2374 6.46967 17.5303C6.76256 17.8232 7.23744 17.8232 7.53033 17.5303L12 13.0607L16.4697 17.5303C16.7626 17.8232 17.2374 17.8232 17.5303 17.5303C17.8232 17.2374 17.8232 16.7626 17.5303 16.4697L13.0607 12L17.5303 7.53033C17.8232 7.23744 17.8232 6.76256 17.5303 6.46967C17.2374 6.17678 16.7626 6.17678 16.4697 6.46967L12 10.9393L7.53033 6.46967Z" fill="#A9B0BA"/>
                     </svg> 
@@ -102,7 +105,7 @@ const TradingTable = ({ title }) => (
                 </tr>
                 <tr>
                   <td>2.</td>
-                  <td className="d-flex flex-row px-0 py-1">
+                  <td className="d-flex px-0">
                     <div className="px-0" href="#">
                       <img
                         className="user-avatar rounded-circle mr-2"
@@ -120,7 +123,18 @@ const TradingTable = ({ title }) => (
                   </td>
                   <td>Stock 1</td>
                   <td>Simple-short</td>
+                  <td>$750</td>
+                  <td>
+                    <button style={{ borderRadius: '42px', background: '#FFE5E5', border: 'none', color: 'var(--red, #FD5F5F)', fontWeight: '600' }}>
+                      -142$
+                    </button>
+                  </td>
                   <td className="d-flex justify-content-end">
+                  <img 
+                      src={require("../../images/avatars/Pause.png")}
+                      alt="play"
+                      className="mr-2"
+                    />
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2ZM7.53033 6.46967C7.23744 6.17678 6.76256 6.17678 6.46967 6.46967C6.17678 6.76256 6.17678 7.23744 6.46967 7.53033L10.9393 12L6.46967 16.4697C6.17678 16.7626 6.17678 17.2374 6.46967 17.5303C6.76256 17.8232 7.23744 17.8232 7.53033 17.5303L12 13.0607L16.4697 17.5303C16.7626 17.8232 17.2374 17.8232 17.5303 17.5303C17.8232 17.2374 17.8232 16.7626 17.5303 16.4697L13.0607 12L17.5303 7.53033C17.8232 7.23744 17.8232 6.76256 17.5303 6.46967C17.2374 6.17678 16.7626 6.17678 16.4697 6.46967L12 10.9393L7.53033 6.46967Z" fill="#A9B0BA"/>
                     </svg> 
@@ -128,7 +142,7 @@ const TradingTable = ({ title }) => (
                 </tr>
                 <tr>
                   <td>3.</td>
-                  <td className="d-flex flex-row px-0 py-1">
+                  <td className="d-flex flex-row px-0">
                     <div className="px-0" href="#">
                       <img
                         className="user-avatar rounded-circle mr-2"
@@ -146,7 +160,18 @@ const TradingTable = ({ title }) => (
                   </td>
                   <td>Stock 1</td>
                   <td>Simple-long</td>
+                  <td>$850</td>
+                  <td>
+                    <button style={{ borderRadius: '42px', background: '#E2FAEC', border: 'none', color: 'var(--green, #2FDB74)', fontWeight: '600' }}>
+                      +243$
+                    </button>
+                  </td>
                   <td className="d-flex justify-content-end">
+                    <img 
+                      src={require("../../images/avatars/Play.png")}
+                      alt="play"
+                      className="mr-2"
+                    />
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2ZM7.53033 6.46967C7.23744 6.17678 6.76256 6.17678 6.46967 6.46967C6.17678 6.76256 6.17678 7.23744 6.46967 7.53033L10.9393 12L6.46967 16.4697C6.17678 16.7626 6.17678 17.2374 6.46967 17.5303C6.76256 17.8232 7.23744 17.8232 7.53033 17.5303L12 13.0607L16.4697 17.5303C16.7626 17.8232 17.2374 17.8232 17.5303 17.5303C17.8232 17.2374 17.8232 16.7626 17.5303 16.4697L13.0607 12L17.5303 7.53033C17.8232 7.23744 17.8232 6.76256 17.5303 6.46967C17.2374 6.17678 16.7626 6.17678 16.4697 6.46967L12 10.9393L7.53033 6.46967Z" fill="#A9B0BA"/>
                     </svg> 
@@ -155,7 +180,7 @@ const TradingTable = ({ title }) => (
                 </tr>
                 <tr>
                   <td>4.</td>
-                  <td className="d-flex flex-row px-0 py-1">
+                  <td className="d-flex flex-row px-0">
                     <div className="px-0" href="#">
                       <img
                         className="user-avatar rounded-circle mr-2"
@@ -173,7 +198,18 @@ const TradingTable = ({ title }) => (
                   </td>
                   <td>Stock 1</td>
                   <td>Simple-short</td>
+                  <td>$950</td>
+                  <td>
+                    <button style={{ borderRadius: '42px', background: '#FFE5E5', border: 'none', color: 'var(--red, #FD5F5F)', fontWeight: '600' }}>
+                      -142$
+                    </button>
+                  </td>
                   <td className="d-flex justify-content-end">
+                    <img 
+                      src={require("../../images/avatars/Play.png")}
+                      alt="play"
+                      className="mr-2"
+                    />
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2ZM7.53033 6.46967C7.23744 6.17678 6.76256 6.17678 6.46967 6.46967C6.17678 6.76256 6.17678 7.23744 6.46967 7.53033L10.9393 12L6.46967 16.4697C6.17678 16.7626 6.17678 17.2374 6.46967 17.5303C6.76256 17.8232 7.23744 17.8232 7.53033 17.5303L12 13.0607L16.4697 17.5303C16.7626 17.8232 17.2374 17.8232 17.5303 17.5303C17.8232 17.2374 17.8232 16.7626 17.5303 16.4697L13.0607 12L17.5303 7.53033C17.8232 7.23744 17.8232 6.76256 17.5303 6.46967C17.2374 6.17678 16.7626 6.17678 16.4697 6.46967L12 10.9393L7.53033 6.46967Z" fill="#A9B0BA"/>
                     </svg> 
@@ -181,7 +217,7 @@ const TradingTable = ({ title }) => (
                 </tr>
                 <tr>
                   <td>5.</td>
-                  <td className="d-flex flex-row px-0 py-1">
+                  <td className="d-flex flex-row px-0">
                     <div className="px-0" href="#">
                       <img
                         className="user-avatar rounded-circle mr-2"
@@ -199,7 +235,18 @@ const TradingTable = ({ title }) => (
                   </td>
                   <td>Stock 1</td>
                   <td>Simple-long</td>
+                  <td>$1250</td>
+                  <td>
+                    <button style={{ borderRadius: '42px', background: '#E2FAEC', border: 'none', color: 'var(--green, #2FDB74)', fontWeight: '600' }}>
+                      +243$
+                    </button>
+                  </td>
                   <td className="d-flex justify-content-end">
+                    <img 
+                      src={require("../../images/avatars/Play.png")}
+                      alt="play"
+                      className="mr-2"
+                    />
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2ZM7.53033 6.46967C7.23744 6.17678 6.76256 6.17678 6.46967 6.46967C6.17678 6.76256 6.17678 7.23744 6.46967 7.53033L10.9393 12L6.46967 16.4697C6.17678 16.7626 6.17678 17.2374 6.46967 17.5303C6.76256 17.8232 7.23744 17.8232 7.53033 17.5303L12 13.0607L16.4697 17.5303C16.7626 17.8232 17.2374 17.8232 17.5303 17.5303C17.8232 17.2374 17.8232 16.7626 17.5303 16.4697L13.0607 12L17.5303 7.53033C17.8232 7.23744 17.8232 6.76256 17.5303 6.46967C17.2374 6.17678 16.7626 6.17678 16.4697 6.46967L12 10.9393L7.53033 6.46967Z" fill="#A9B0BA"/>
                     </svg> 
@@ -207,7 +254,7 @@ const TradingTable = ({ title }) => (
                 </tr>
                 <tr>
                   <td>6.</td>
-                  <td className="d-flex flex-row px-0 py-1">
+                  <td className="d-flex flex-row px-0">
                     <div className="px-0" href="#">
                       <img
                         className="user-avatar rounded-circle mr-2"
@@ -225,7 +272,18 @@ const TradingTable = ({ title }) => (
                   </td>
                   <td>Stock 1</td>
                   <td>Simple-long</td>
+                  <td>$850</td>
+                  <td>
+                    <button style={{ borderRadius: '42px', background: '#E2FAEC', border: 'none', color: 'var(--green, #2FDB74)', fontWeight: '600' }}>
+                      +1350$
+                    </button>
+                  </td>
                   <td className="d-flex justify-content-end">
+                    <img 
+                      src={require("../../images/avatars/Play.png")}
+                      alt="play"
+                      className="mr-2"
+                    />
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2ZM7.53033 6.46967C7.23744 6.17678 6.76256 6.17678 6.46967 6.46967C6.17678 6.76256 6.17678 7.23744 6.46967 7.53033L10.9393 12L6.46967 16.4697C6.17678 16.7626 6.17678 17.2374 6.46967 17.5303C6.76256 17.8232 7.23744 17.8232 7.53033 17.5303L12 13.0607L16.4697 17.5303C16.7626 17.8232 17.2374 17.8232 17.5303 17.5303C17.8232 17.2374 17.8232 16.7626 17.5303 16.4697L13.0607 12L17.5303 7.53033C17.8232 7.23744 17.8232 6.76256 17.5303 6.46967C17.2374 6.17678 16.7626 6.17678 16.4697 6.46967L12 10.9393L7.53033 6.46967Z" fill="#A9B0BA"/>
                     </svg> 
@@ -236,7 +294,7 @@ const TradingTable = ({ title }) => (
             
             <div className="pagination d-flex justify-content-end">
               <img 
-                src={require("../../images/avatars/pagination.png")}
+                src={require("../../images/avatars/pagination1.png")}
                 alt="pagination"
               />
             </div>
