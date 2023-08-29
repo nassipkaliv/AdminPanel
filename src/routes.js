@@ -17,6 +17,8 @@ import Finance from "./views/Finance";
 import Forecast from "./views/Forecast";
 import Network from "./views/Network";
 import PartnerTariffs from "./views/PartnerTariffs";
+import EditUser from "./components/user-profile-lite/EditUser";
+import EditPassword from "./components/user-profile-lite/EditPassword";
 
 export default [
   {
@@ -69,5 +71,15 @@ export default [
     path: "/partner-tariffs",
     layout: DefaultLayout,
     component: PartnerTariffs
-  }
+  },
+  {
+    path: "/edit-user",
+    layout: DefaultLayout,
+    component: EditUser
+  },
+  {
+    path: "/edit-password",
+    layout: DefaultLayout,
+    component: EditPassword
+  },
 ];
