@@ -11,7 +11,7 @@ import {
   CardFooter
 } from "shards-react";
 
-const UserTarif = ({ title }) => (
+const PartnerUserTarif = ({ title }) => (
   <Card small className="mb-1">
     <CardHeader style={{ padding: '0rem 1rem'}}>
         <div className="mt-3" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '75px', padding: '0px 4px',  borderRadius: '8px', background: 'var(--pimary-light-blue, #ECF5FF)' }}>
@@ -29,11 +29,14 @@ const UserTarif = ({ title }) => (
         style={{
           position: "relative",
           height: "50px",
-          backgroundColor: "var(--light-bg-elements, #F4F5F7)",
-          borderRadius: '10px',
+          backgroundColor: "var(--pimary-light-blue, #ECF5FF)"
         }}
       >
-       
+        <Progress
+          style={{ height: "100%", borderRadius: '10px', backgroundColor: 'var(--pimary-light-blue, #ECF5FF)', }}
+          className="mb-3"
+          value={30}
+        />
         <h3
           className="mb-0 d-flex align-items-center justify-content-center"
           style={{
@@ -49,7 +52,7 @@ const UserTarif = ({ title }) => (
             bottom: 0,
           }}
         >
-          Нет тарифа
+          Тариф (6/12 d)
         </h3>
       </div>
 
@@ -104,8 +107,8 @@ const UserTarif = ({ title }) => (
   </Card>
 );
 
-UserTarif.propTypes = {
+PartnerUserTarif.propTypes = {
   title: PropTypes.string,
 };
 
-export default UserTarif;
+export default PartnerUserTarif;

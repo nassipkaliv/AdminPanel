@@ -25,7 +25,6 @@ const UserDetails = ({ userDetails }) => (
           className="rounded-circle"
           src={userDetails.avatar}
           alt={userDetails.name}
-          width="100%"
         />
       </div>
 

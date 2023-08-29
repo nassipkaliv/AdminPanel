@@ -15,6 +15,8 @@ import Trading from "./views/Trading";
 import Notification from "./views/Notification";
 import Finance from "./views/Finance";
 import Forecast from "./views/Forecast";
+import Network from "./views/Network";
+import PartnerTariffs from "./views/PartnerTariffs";
 
 export default [
   {
@@ -57,5 +59,15 @@ export default [
     path: "/trading",
     layout: DefaultLayout,
     component: Trading
+  },
+  {
+    path: "/network",
+    layout: DefaultLayout,
+    component: Network
+  },
+  {
+    path: "/partner-tariffs",
+    layout: DefaultLayout,
+    component: PartnerTariffs
   }
 ];
