@@ -27,7 +27,7 @@ const NotificationLink = ({ title }) => (
         </h3>
       </Col>
       <Col lg={1} className="text-right">
-        <Button className="d-flex align-items-center" style={{ borderRadius: '10px', height: '40px', fontSize: '14px', marginLeft: '40px' }}>
+        <Button className="d-flex align-items-center" style={{ borderRadius: '10px', height: '58px', fontSize: '19px' }}>
           Перейти
         </Button>
       </Col>

@@ -19,6 +19,11 @@ import Network from "./views/Network";
 import PartnerTariffs from "./views/PartnerTariffs";
 import EditUser from "./components/user-profile-lite/EditUser";
 import EditPassword from "./components/user-profile-lite/EditPassword";
+import TradingCreateBot from "./components/trading/TradingCreateBot";
+import Auth from "./views/Auth";
+import AuthForgotPass from "./views/AuthForgotPass";
+import AuthReg from "./views/AuthReg";
+import Comission from "./views/Comission";
 
 export default [
   {
@@ -81,5 +86,30 @@ export default [
     path: "/edit-password",
     layout: DefaultLayout,
     component: EditPassword
+  },
+  {
+    path: "/create-bot",
+    layout: DefaultLayout,
+    component: TradingCreateBot
+  },
+  {
+    path: "/auth-login",
+    layout: DefaultLayout,
+    component: Auth
+  },
+  {
+    path: "/auth-forgot-pass",
+    layout: DefaultLayout,
+    component: AuthForgotPass
+  },
+  {
+    path: "/auth-reg",
+    layout: DefaultLayout,
+    component: AuthReg
+  },
+  {
+    path: "/finance-comissions",
+    layout: DefaultLayout,
+    component: Comission
   },
 ];

@@ -13,7 +13,8 @@ import {
 
 import { Link } from "react-router-dom";
 
-const FinanceTable = ({ title }) => (
+const FinanceComissionsTable = ({ title }) => (
+  
   <Row className="">
       <Col lg={9}>
         <Card small className="mb-4">
@@ -33,7 +34,7 @@ const FinanceTable = ({ title }) => (
                     />
                   </th>
                   <th scope="col" className="">
-                    Tarif type
+                    Client
                     <img 
                       src={require("../../images/avatars/upend.png")}
                       alt="upend"
@@ -41,20 +42,15 @@ const FinanceTable = ({ title }) => (
                     />
                   </th>
                   <th scope="col" className="">
-                    Tarif
+                    Amount
                     <img 
                       src={require("../../images/avatars/upend.png")}
                       alt="upend"
                       className="ml-1"
                     />
                   </th>
-                  <th scope="col" className="">
-                    Price
-                    <img 
-                      src={require("../../images/avatars/upend.png")}
-                      alt="upend"
-                      className="ml-1"
-                    />
+                  <th scope="col" className="d-flex justify-content-end" >
+                    Taken
                   </th>
                 </tr>
               </thead>
@@ -64,101 +60,83 @@ const FinanceTable = ({ title }) => (
                   <td className="">
                     20.08.2023
                   </td>
-                  <td style={{ color: 'var(--light-grey, #A9B0BA)'}}>Client</td>
-                  <td>Professional (#9)</td>
-                  <td>$30</td>
+                  <td>0x53685aaabbb</td>
+                  <td>$130</td>
                   <td className="d-flex justify-content-end">
-                    <Button>Moneyback</Button> 
+                    <Button style={{  fontSize:'19px', fontWeight: '500'}}>Take</Button> 
                   </td>
                 </tr>
                 <tr>
-                  <td>2.</td>
-                  <td>
-                    16.08.2023
+                  <td>1.</td>
+                  <td className="">
+                    20.08.2023
                   </td>
-                  <td style={{ color: 'var(--light-grey, #A9B0BA)'}}>Partner</td>
-                  <td>Gold (#10137)</td>
-                  <td>$250</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>3.</td>
-                  <td>
-                    2.08.2023
-                  </td>
-                  <td style={{ color: 'var(--light-grey, #A9B0BA)'}}>Client</td>
-                  <td>Professional (#9)</td>
-                  <td>$1350</td>
+                  <td>0x53685aaabbb</td>
+                  <td>$130</td>
                   <td className="d-flex justify-content-end">
-                    
-                  </td>
-                  
-                </tr>
-                <tr>
-                  <td>4.</td>
-                  <td>
-                    11.07.2023
-                  </td>
-                  <td style={{ color: 'var(--light-grey, #A9B0BA)'}}>Partner</td>
-                  <td>Gold (#10137)</td>
-                  <td>$30</td>
-                  <td className="d-flex justify-content-end">
-                    <Button>Moneyback</Button> 
+                    <Button style={{ background: 'none', border: 'none', color: 'var(--light-grey, #A9B0BA)', fontSize:'19px', fontWeight: '600'}}>Taken</Button> 
                   </td>
                 </tr>
                 <tr>
-                  <td>5.</td>
-                  <td>
-                    9.07.2023
+                  <td>1.</td>
+                  <td className="">
+                    20.08.2023
                   </td>
-                  <td style={{ color: 'var(--light-grey, #A9B0BA)'}}>Client</td>
-                  <td>Professional (#9)</td>
-                  <td>$250</td>
+                  <td>0x53685aaabbb</td>
+                  <td>$130</td>
                   <td className="d-flex justify-content-end">
-                    <Button>Moneyback</Button> 
+                    <Button style= {{  fontSize:'19px', fontWeight: '500'}}>Take</Button> 
                   </td>
                 </tr>
                 <tr>
-                  <td>6.</td>
-                  <td>
-                    5.07.2023
+                  <td>1.</td>
+                  <td className="">
+                    20.08.2023
                   </td>
-                  <td style={{ color: 'var(--light-grey, #A9B0BA)'}}>Partner</td>
-                  <td>Gold (#10137)</td>
-                  <td>$11450</td>
+                  <td>0x53685aaabbb</td>
+                  <td>$130</td>
                   <td className="d-flex justify-content-end">
-                    
+                    <Button style={{  fontSize:'19px', fontWeight: '500'}}>Take</Button> 
                   </td>
                 </tr>
                 <tr>
-                  <td>7.</td>
-                  <td>
-                    2.07.2023
+                  <td>1.</td>
+                  <td className="">
+                    20.08.2023
                   </td>
-                  <td style={{ color: 'var(--light-grey, #A9B0BA)'}}>Partner</td>
-                  <td>Professional (#9)</td>
-                  <td>$30</td>
+                  <td>0x53685aaabbb</td>
+                  <td>$130</td>
                   <td className="d-flex justify-content-end">
-                    <Button>Moneyback</Button> 
+                    <Button style={{  fontSize:'19px', fontWeight: '500'}}>Take</Button> 
                   </td>
                 </tr>
                 <tr>
-                  <td>8.</td>
-                  <td>
-                    28.06.2023
+                  <td>1.</td>
+                  <td className="">
+                    20.08.2023
                   </td>
-                  <td style={{ color: 'var(--light-grey, #A9B0BA)'}}>Client</td>
-                  <td>Goldl (#10137)</td>
-                  <td>$30</td>
+                  <td>0x53685aaabbb</td>
+                  <td>$130</td>
                   <td className="d-flex justify-content-end">
-                    <Button>Moneyback</Button> 
+                    <Button style={{  fontSize:'19px', fontWeight: '500'}}>Take</Button> 
+                  </td>
+                </tr>
+                <tr>
+                  <td>1.</td>
+                  <td className="">
+                    20.08.2023
+                  </td>
+                  <td>0x53685aaabbb</td>
+                  <td>$130</td>
+                  <td className="d-flex justify-content-end">
+                    <Button style={{  fontSize:'19px', fontWeight: '500'}}>Take</Button> 
                   </td>
                 </tr>
               </tbody>
             </table>
             
             <div className="pagination d-flex justify-content-end">
-            <Link to="/finance-comissions">
+            <Link to="/finance">
               <img 
                 src={require("../../images/avatars/pagination5.png")}
                 alt="pagination"
@@ -171,11 +149,9 @@ const FinanceTable = ({ title }) => (
     </Row>
 );
 
-FinanceTable.propTypes = {
-  title: PropTypes.string,
-};
 
-export default FinanceTable;
+
+export default FinanceComissionsTable;
 
 
 
