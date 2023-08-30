@@ -51,7 +51,7 @@ class NotificationHeader extends React.Component {
               src={require("../../images/avatars/cross.png")}
               alt="close"
             />
-            <h1 style={{ color: 'var(--black, #1D2226)', textAlign: 'center' }}>Forecast dialog</h1>
+            <h1 style={{ color: 'var(--black, #1D2226)', textAlign: 'center' }}>Notification dialog</h1>
             <p style={{ color: 'var(--light-grey, #A9B0BA)', fontSize: '16px', textAlign: 'center' }}>Lorem Ipsum - это текст-"рыба", часто используемый в печати</p>
 
             <div className="mb-2 pb-2">
